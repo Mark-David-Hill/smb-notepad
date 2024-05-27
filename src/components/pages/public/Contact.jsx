@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import ContactForm from "../forms/ContactForm";
-import AlertModal from "../modals/AlertModal";
+import ContactForm from "../../forms/ContactForm";
+import AlertModal from "../../modals/AlertModal";
 
 export default function Contact() {
   const [alertModalIsOpen, setAlertModalIsOpen] = useState(false);

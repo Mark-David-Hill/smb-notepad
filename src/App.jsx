@@ -26,6 +26,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/level-elements" component={Contact} />
+          <Route path="/level-elements/<LevelElementId>" component={Contact} />
           <Route component={NoPage} />
         </Switch>
       </BrowserRouter>
